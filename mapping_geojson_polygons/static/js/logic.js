@@ -24,7 +24,7 @@ let baseMaps = {
 // Create the map object with center at Toronto and zoom level of 2.
 let map = L.map('mapid', {
   center: [43.7, -79.3],
-  zoom: 2,
+  zoom: 11,
   layers: [streets]
 });
 
