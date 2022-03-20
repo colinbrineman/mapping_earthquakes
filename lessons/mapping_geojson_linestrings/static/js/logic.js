@@ -32,7 +32,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing the airport GeoJSON URL
-let torontoData = "https://raw.githubusercontent.com/colinbrineman/Mapping_Earthquakes/main/lessons/mapping_geojson_linestrings/static/data/torontoRoutes.json"
+let torontoData = "https://raw.githubusercontent.com/colinbrineman/mapping_earthquakes/main/lessons/mapping_geojson_linestrings/static/data/torontoRoutes.json"
 
 // Create a style for the lines.
 let myStyle = {
